@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Snake game</title>
+	<link rel="stylesheet" type="text/css" href="./boot/css/bootstrap.min.css">
+	<style>
+		canvas{border: solid;}
+	</style>
+
+	
+</head>
+<body>
+	<div class="container">
+		<h1 class="text-center">Snake Game</h1>
+
+		<div class="row">
+			<div class="col-md-5">
+			<h2 class="text-center"> Instrucctions </h2>
+				<div>
+					Use the arrows to move the snake
+				</div>
+				<br>
+				<div>
+					If you touch the borders or the body of snake, you lose
+				</div>
+				<br>
+				<div>
+					<div>
+						This game has been done in javascript. 
+						You need a server to run.
+						To use NodeJS you need to install the <b>dependency</b>:
+					</div>
+					<br>
+					<div>
+						<b> npm install -g http-server </b>
+					</div>
+					<br>
+					<div>
+						And for run open a command line and in the project folder type:
+					</div>
+					<br>
+					<div>
+						<b> http-server -p 8000 </b>
+					</div>
+					<br>
+					<div>
+						Now go to <b>localhost:8000</b> and you can play
+					</div>
+				</div>
+			</div>
+			<div class="col-md-7">
+				<h2>   Play with the Snake!!!</h2>
+				<canvas id="canvas" width="500" height="300"></canvas>
+				<script src="/game-dist.js"></script>
+			</div>
+			
+		</div>
+	</div>	
+<!--http-server -p 8000       to start de node server-->
+</body>
+</html>
+
+
+
+
